@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        .container {
+            width: 500px;
+    }
+
+    .container-grid {
+        width: 100%;
+        padding: 40px;
+    }
+    
+    .container img {
+        max-width:500px;
+        width: auto;
+        height: 500px;
+        object-fit: cover;
+    }
+    
+    .container h1 {
+        padding-top: 16px;
+    }
+
+    .card img {
+        max-width:500px;
+        width: auto;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    }
+
+@media screen and (max-width: 767px) {
+
+    }
+
+    </style>
+    <body>
+    <div class="container">
+        <h1>Sobremesas do Marujo</h1>
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="Carousel/torta de chocolate.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block w-100" src="Carousel/torta de limão.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block w-100" src="Carousel/pudim de leite.jpg">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+        <div class="container-grid">
+        <h1>Pratos</h1>
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Pratos Frios
+                        </div>
+                        <img src="/Frios/Combinado Sushi + Sashimi.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Combinado de 22 peças</h4>
+                            <h5 class="card-subtitle">R$ 55,00</h5>
+                            <p class="card-text">
+                                5 Sashimi Salmão, 5 Sashimi Atum, 5 Sashimi Peixe Branco, 3 Sashimi Camarão, 2 Sashimi Kani e 2 Sashimi Polvo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Pratos Frios
+                        </div>
+                        <img src="/Frios/Carpaccio de Salmão.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Carpaccio de Salmão</h4>
+                            <h5 class="card-subtitle">R$ 35,00</h5>
+                            <p class="card-text">
+                                Carpaccio de salmão é uma deliciosa opção de entrada ou aperitivo que ganha um toque oriental com uso do molho ponze, feito à base de saquê, sucos de limão e laranja e molho de soja.
+                            </p>
+                            <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Pratos Frios
+                        </div>
+                        <img src="Frios/Jou de Codorna trufada com flor de sal.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Jou de Codorna trufada com flor de sal.</h4>
+                            <h5 class="card-subtitle">R$ 45,00</h5>
+                            <p class="card-text">
+                                Base de jou salmão levemente selado; finalizado com flor de sal, gergelim, azeite trufado e trufas negras de verão.
+                            </p>
+                            <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Pratos Quentes
+                        </div>
+                        <img src="/Quentes/batera crispy rice.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Baterá crispy rice</h4>
+                            <h5 class="card-subtitle">R$ 35,00</h5>
+                            <p class="card-text">
+                                Arroz japonês com uma camada de tartar de salmão por cima, coberto pela nossa exclusiva cebola crispy.
+                            </p>
+                            <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Pratos Quentes
+                        </div>
+                        <img src="Quentes/camarão empanado.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Camarão empanado</h4>
+                            <h5 class="card-subtitle">R$ 30,00</h5>
+                            <p class="card-text">
+                                8 unidades de um tradicional petisco de camarão empanado crocante com limão siciliano.
+                            </p>
+                            <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Pratos Quentes
+                        </div>
+                        <img src="/Quentes/Chapa Oriental.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Chapa oriental</h4>
+                            <h5 class="card-subtitle">R$ 80,00</h5>
+                            <p class="card-text">
+                                mexilhão, camarão, queijo coalho, polvo e cebola.
+                            </p>
+                            <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
